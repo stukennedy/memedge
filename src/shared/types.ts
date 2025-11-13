@@ -29,7 +29,13 @@ export interface UrlConfig {
  */
 export interface LlmConfig {
   id: string;
-  format: 'openai' | 'azure_openai' | 'gemini' | 'none' | 'advanced_voice';
+  format:
+    | 'openai'
+    | 'azure_openai'
+    | 'gemini'
+    | 'anthropic'
+    | 'none'
+    | 'advanced_voice';
   urls?: UrlConfig[];
   secret?: string;
   model_name?: string;

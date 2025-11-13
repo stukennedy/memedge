@@ -1,6 +1,6 @@
 {
   "name": "memedge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced memory management system for LLM agents with Letta-inspired features",
   "type": "module",
   "main": "./dist/index.js",
